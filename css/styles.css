@@ -1,0 +1,126 @@
+body {
+  background-color: #dedede;
+  color: #000000;
+  font-family: 'Arial', Verdana, sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+header {
+  background-color: #dedede;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #2e5b26;
+}
+
+.textchat {
+  width: 70%;
+  padding: 10px;
+  bottom: 66px;
+  right: 45px;
+  position: absolute;
+  color: #dedede;
+}
+
+.text {
+  color: #0d487d;
+  font-family: 'Arial', Verdana, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+  outline: 0;
+}
+
+.error {
+  color: #FF0000;
+  font-family: 'Arial', Verdana, sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+chat {
+  padding: 10px;
+  width: 70%;
+  bottom: 130px;
+  top: 115px;
+  right: 25px;
+  background-color: #f1f1f1;
+  position: absolute;
+  overflow: scroll;
+}
+
+uibuttons {
+  padding: 20px;
+  width: 30%;
+  height: 100%;
+}
+
+.button {
+  display: block;
+  border-radius: 10px;
+  background-color: #2e5b26;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  padding: 16px;
+  width: 205px;
+  transition: all 0.25s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 25px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  background-color: #dedede;
+  color: black;
+  border: 2px solid #2e5b26;
+}
+
+.button2:hover {
+  background-color: #2e5b26;
+  color: white;
+}
+
+.button2 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 20px;
+  margin: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
