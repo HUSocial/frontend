@@ -8,10 +8,73 @@ body {
 
 header {
   background-color: #dedede;
+  padding: 7px;
+  text-align: center;
+  font-size: 30px;
+  color: #2e5b26;
+}
+
+.header {
+  background-color: #2e5b26;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+float: left;
+width: 10%;
+text-align: center;
+}
+
+.nav a {
+  padding: 10px;
+  display: block;
+  margin-top: 7px;
+  width: 80%;
+  background-color: #c1b05c;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #0d487d;
+  color: white;
+}
+
+.nav a:active {
+  background-color: #2e5b26;
+  color: white;
+}
+
+.column {
+  float: left;
   padding: 10px;
   text-align: center;
-  font-size: 35px;
-  color: #2e5b26;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.column.side {
+  width: 15%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e5b26;
+  color: white;
+  text-align: center;
 }
 
 .textchat {
@@ -39,6 +102,10 @@ header {
   margin: 0;
 }
 
+.rounded {
+  border-radius: 900px;
+}
+
 chat {
   padding: 10px;
   width: 70%;
@@ -48,12 +115,6 @@ chat {
   background-color: #f1f1f1;
   position: absolute;
   overflow: scroll;
-}
-
-uibuttons {
-  padding: 20px;
-  width: 30%;
-  height: 100%;
 }
 
 .button {
