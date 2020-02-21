@@ -1,27 +1,65 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Sign Up Form</title>
-  <link rel="stylesheet" type="text/css" href="..\css\styles.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="..\css\styles.css">
   </head>
-    <body>
 
-    <div class = "sign-up-form">
-         <h1> Sign Up </h1>
-        <form>
-        <input type="email" class = "input-box" placeholder = "First Name">
-        <input type="email" class = "input-box" placeholder = "ENTER Email">
-        <input type ="email" class= "input-box" placeholder ="ENTER PASSWORD">
-        <p><span><input type= "checkbox"></span>By clicking Register, you agree on Harrisburg University terms and condition HU </p>
-        <button type = "button" class= "signup-btn">Sign UP</button>
-
-
-        </form>
-    </div>
-
-
-
-
-
-
+  <body>
+    <header><h1>Sign Up form<h1></header>
+      <br>
+      <br>
+      <center>
+      <p1 style="font-size: 30px;">Sign Up Form</p1>
+      <br>
+      <br>
+      <form method="POST">
+        <div style="text-align:center;">
+          <input type="text"
+                  id="email_log"
+                  name="HU_Email"
+                  class="text"
+                  placeholder="First Name"></input>
+        </div>
+          <div style="text-align:center;">
+          <input type="text"
+                  id="email_log"
+                  name="HU_Email"
+                  class="text"
+                  placeholder="Last Name"></input>
+        </div>
+        
+        <div style="text-align:center;">
+          <input type="text"
+                  id="email_log"
+                  name="HU_Email"
+                  class="text"
+                  placeholder="HU Email/User Name"></input>
+        </div>
+        
+        <div style="float: center;">
+            <input type="password"
+                    id="ID_log"
+                    name="HU_id"
+                    class="text"
+                    placeholder="Password"></input>
+      </div>
+        <div style="float: center;">
+            <input type="password"
+                    id="ID_log"
+                    name="HU_id"
+                    class="text"
+                    placeholder="Confirm Password"></input>
+        </div>
+      </form>
+      <button type="submit" id="loginButton" class="button" style="vertical-align:middle"><span>Sign Up</span></button>
+      <br>
+        <a href="login.html" class="text">return tologin</a>
+      <br>
+      <p2 id="loginText" class="toggle-content.is-visible error"><center> </center></p2>
+      <br>
+    </center>
     </body>
 </html>
