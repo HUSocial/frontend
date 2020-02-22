@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header !-->
+<div class = "header" id="mainHeader">
+<div class="topnav">
+  <a href="#">Settings</a> <!-- Will be a drop down to go to settings/logout etc. !-->
+  <a href="#">Contact</a>
+  <a href="#">Inbox</a>
+  <a href="profile.php">Profile</a>
+  <a class="logo" href ="mainpage.html"> Harrisburg Life </a>
+</div>
+<!-- /Header !-->
+
+
+<!-- Sections !-->
+<!-- Announcements !-->
+<div class = "row">
+  <div class = "column left"> <!-- Call from php to grab announcements !-->
+      <div class = "card">
+    <div id = "announce"> </div>
+    <h2> Announcements (Placeholder) </h2>
+    <p> Will display announcements -Not final design </p>
+  </div>
+</div>
+
+<!-- Feed !-->
+<div class = "column feed">
+  <div class = "card">
+    <h2> users info/post  </h2>
+    <p> Not implemented yet</p>
+    <div class = "comments" id= "comment">
+    <h3> Comments (placeholder) </h3>
+    <p> Location of users (and other users post)</p>
+    <p> not implemented yet </p>
+
+    <!-- Write some method that takes this post and pushes it into the comment section -->
+    <form class = "reply" action = "post_comment.php" method = "POST" id = "post_comment">
+      <input type = "text" id="commentbox" placeholder = "Comment..." </input>
+    </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Friends !-->
+<!-- Extra room to its left for another section !-->
+  <div class ="column right" id="friends">
+    <div class = "card">
+    <div id = user-list> </div>  <!-- Check js file. need friends.php !-->
+      <h2> online friends (placeholder) </h2>
+      <p> Display friends - not final design</p>
+  </div>
+  <br>   <br>   <br>  <br>
+
+ <!-- Groups !-->
+    <div class = "card" id="groups">
+    <h3> Groups </h3>
+    <p> Subgroup of friends - not final design</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Sections !-->
+
+
+
+<!-- This isn't fully responsive yet when it comes to resizing !-->
+<!-- All containers auto scroll if it exceeds limit !--> 
+
+
+
+
+<!-- Methods neded
+  Logout.php --Added for next sprint
+  post_comments.php
+  friends.php
+  announcements.php
+  a method that takes the post and stores it into the comment section !-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
