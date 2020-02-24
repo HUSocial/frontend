@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <link rel="stylesheet" type="text/css" href="..\css\styles.css">
+  </head>
+
+  <body>
+    <header><h1>Welcome to HU Social<h1></header>
+      <br>
+      <br>
+      <center>
+      <p1 style="font-size: 30px;">Please Sign Up</p1>
+      <br>
+      <br>
+      <form method="POST">
+        <div style="text-align:center;">
+          <input type="text"
+                  id="name_first"
+                  name="firstnameSignup"
+                  class="text"
+                  placeholder="First Name"></input>
+        </div>
+        <br>
+          <div style="text-align:center;">
+          <input type="text"
+                  id="name_last"
+                  name="lastnameSignup"
+                  class="text"
+                  placeholder="Last Name"></input>
+        </div>
+        <br>
+        <div style="text-align:center;">
+          <input type="text"
+                  id="email_sign"
+                  name="emailSignup"
+                  class="text"
+                  placeholder="HU Email/User Name"></input>
+        </div>
+        <br>
+        <div style="float: center;">
+            <input type="password"
+                    id="psswrd"
+                    name="passwordSignup"
+                    class="text"
+                    placeholder="Password"></input>
+      </div>
+      <br>
+        <div style="float: center;">
+            <input type="password"
+                    id="psswrd_con"
+                    name="passwordConfirm"
+                    class="text"
+                    placeholder="Confirm Password"></input>
+        </div>
+        <br>
+      </form>
+      <button type="submit" id="signupButton" class="button" style="vertical-align:middle"><span>Sign Up</span></button>
+      <br>
+      <a href="login.html" class="text">Login</a>
+      <br>
+      <p2 id="SignUpText" class="toggle-content.is-visible error"><center> </center></p2>
+      <br>
+    </center>
+    </body>
+    <script src="..\js\signup.js"></script>
+</html>
