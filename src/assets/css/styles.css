@@ -185,3 +185,11 @@ chat {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+.toggle-content {
+  display: none;
+}
+
+.toggle-content.is-visible {
+  display: block;
+}

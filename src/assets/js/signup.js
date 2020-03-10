@@ -1,10 +1,10 @@
 console.log('signup render');
 
 //Call button from HTML page.
-const SignUp_Button = document.getElementById('signupButton');
+const Sign_Button = document.getElementById('signupButton');
 
 //Event handlers for buttons.
-SignUP_Button.onclick = attemptSignUp;
+Sign_Button.onclick = attemptSignUp;
 
 var text1 = document.getElementById('SignUpText');
 
